@@ -1,7 +1,7 @@
 [
     {
       "id": "CSE101",
-      "img": "https://ibb.co/tMm636x",
+      "img": "https://i.ibb.co/yNNch5k/Rectangle-2-2.png",
       "title": "Introduction to C Programming",
       "credit": 3,
       "price": 299.99,
@@ -9,7 +9,7 @@
     },
     {
       "id": "CSE201",
-      "img": "https://ibb.co/5kJCFsr",
+      "img": "https://i.ibb.co/42RgjQy/Rectangle-2-3.png",
       "title": "Introduction to Algorithms",
       "credit": 4,
       "price": 399.99,
@@ -17,7 +17,7 @@
     },
     {
       "id": "CSE301",
-      "img": "https://ibb.co/g961g8h",
+      "img": "https://i.ibb.co/YBZSww2/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
       "credit": 3,
       "price": 349.99,
@@ -25,7 +25,7 @@
     },
     {
       "id": "CSE401",
-      "img": "https://ibb.co/bFNpqzK",
+      "img": "https://i.ibb.co/42WsXSH/Rectangle-3.png",
       "title": "Basic Data Structures",
       "credit": 3,
       "price": 299.99,
@@ -33,7 +33,7 @@
     },
     {
       "id": "CSE501",
-      "img": "https://ibb.co/w0gZMxJ",
+      "img": "https://i.ibb.co/Y8kNvKg/Rectangle-2.png",
       "title": "Introduction to OOP Python",
       "credit": 4,
       "price": 499.99,
@@ -41,7 +41,7 @@
     },
     {
       "id": "CSE601",
-      "img": "https://ibb.co/DKKHDVR",
+      "img": "https://i.ibb.co/Xk17d46/Rectangle-2-5.png",
       "title": "Software Engineering",
       "credit": 3,
       "price": 349.99,
@@ -49,7 +49,7 @@
     },
     {
       "id": "CSE701",
-      "img": "https://ibb.co/hKRQ2hd",
+      "img": "https://i.ibb.co/LhrXDw0/Rectangle-3-1.png",
       "title": "AWS, Cloud Computing",
       "credit": 4,
       "price": 399.99,
@@ -57,7 +57,7 @@
     },
     {
       "id": "CSE801",
-      "img": "https://ibb.co/syq1vSB",
+      "img": "https://i.ibb.co/Yb8JwyL/Rectangle-2-1.png",
       "title": "Database (MySQL)",
       "credit": 3,
       "price": 349.99,
@@ -65,7 +65,7 @@
     },
     {
       "id": "CSE901",
-      "img": "https://ibb.co/z6dFqKD",
+      "img": "https://i.ibb.co/p2K4S5P/Rectangle-2-6.png",
       "title": "Problem-Solving Part",
       "credit": 3,
       "price": 299.99,
