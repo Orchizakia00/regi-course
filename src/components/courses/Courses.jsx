@@ -46,7 +46,7 @@ const Courses = () => {
 
     return (
         <div className='flex mt-10 flex-col-reverse lg:flex-row'>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:mx-4">
                 {
                     courses.map((course) => (
                         <div key={course.id} className="bg-white p-5 rounded-xl w-96">
