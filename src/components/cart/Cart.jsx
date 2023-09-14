@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 
-const Cart = ({ selectedCourses, remaining, totalCredit }) => {
+const Cart = ({ selectedCourses, remaining, totalCredit, totalCost }) => {
 
     return (
         <div className="bg-white p-4 rounded-xl w-72">
@@ -16,7 +16,7 @@ const Cart = ({ selectedCourses, remaining, totalCredit }) => {
             <hr />
             <p className="my-4">Total Credit Hour : {totalCredit}</p>
             <hr />
-            <p className="my-4">Total Price : 48000 USD</p>
+            <p className="my-4">Total Price : {totalCost}</p>
         </div>
     );
 };
