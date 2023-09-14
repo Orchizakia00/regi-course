@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Courses = () => {
     const [courses, setCourses] = useState([]);
     const [selectedCourses, setSelectedCourses] = useState([]);
-    const [remaining, setRemaining] = useState(0);
+    const [remaining, setRemaining] = useState(20);
     const [totalCredit, setTotalCredit] = useState(0);
     const [totalCost, setTotalCost] = useState(0);
 
@@ -45,8 +45,8 @@ const Courses = () => {
     }
 
     return (
-        <div className='flex mt-10'>
-            <div className="grid grid-cols-3 gap-4 mx-4">
+        <div className='flex mt-10 flex-col-reverse lg:flex-row'>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4">
                 {
                     courses.map((course) => (
                         <div key={course.id} className="bg-white p-5 rounded-xl w-96">
@@ -71,7 +71,7 @@ const Courses = () => {
                 }
             </div>
 
-            <div>
+            <div className="mx-auto mb-6">
                 <Cart
                     selectedCourses={selectedCourses}
                     remaining={remaining}
