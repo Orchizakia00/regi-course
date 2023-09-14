@@ -1,15 +1,22 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import Cart from "../cart/Cart";
 
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
+    const [selectedCourses, setSelectedCourses] = useState([]);
 
     useEffect(() => {
         fetch('./data.json')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
+
+    const handleSelectBtn = (course) => {
+        setSelectedCourses([...selectedCourses, course]);
+    }
+    console.log(selectedCourses);
 
     return (
         <div className='flex mt-10'>
@@ -24,14 +31,16 @@ const Courses = () => {
                                 <p>Price: ${course.price}</p>
                                 <p>Credit: {course.credit}hr</p>
                             </div>
-                            <button className="w-full bg-blue-600 text-white rounded-xl p-1">Select</button>
+                            <button onClick={() => handleSelectBtn(course)} className="w-full bg-blue-600 text-white rounded-xl p-1">Select</button>
                         </div>
                     ))
                 }
             </div>
 
             <div>
-                <p>Cart</p>
+                <Cart 
+                selectedCourses = {selectedCourses}
+                ></Cart>
             </div>
 
         </div>
