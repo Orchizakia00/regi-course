@@ -31,10 +31,16 @@ const Courses = () => {
                 cost += item.price;
             });
             const totalRemaining = 20 - creditCount;
-            setRemaining(totalRemaining);
-            setTotalCredit(creditCount);
-            setTotalCost(cost)
-            setSelectedCourses([...selectedCourses, course]);
+            if (creditCount > 20) {
+                toast('Your limit is over. You can enroll only 20 credits.');
+            }
+            else {
+                setRemaining(totalRemaining);
+                setTotalCredit(creditCount);
+                setTotalCost(cost)
+                setSelectedCourses([...selectedCourses, course]);
+            }
+
         }
     }
 
@@ -49,7 +55,7 @@ const Courses = () => {
                             <p>{course.details}</p>
                             <div className="flex justify-between my-4">
                                 <p>Price: ${course.price}</p>
-                                <p>Credit: {course.credit}hr</p>
+                                <p>Credit: {course.credit} hr</p>
                             </div>
                             <button onClick={() => handleSelectBtn(course)} className="w-full bg-blue-600 text-white rounded-xl p-1">Select</button>
 
@@ -61,8 +67,8 @@ const Courses = () => {
 
             <div>
                 <Cart
-                    selectedCourses={selectedCourses} 
-                    remaining ={remaining} 
+                    selectedCourses={selectedCourses}
+                    remaining={remaining}
                     totalCredit={totalCredit}
                     totalCost={totalCost}
                 ></Cart>

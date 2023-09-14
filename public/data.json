@@ -19,7 +19,7 @@
       "id": "CSE301",
       "img": "https://i.ibb.co/YBZSww2/Rectangle-2-4.png",
       "title": "Introduction to C++ for DSA",
-      "credit": 3,
+      "credit": 7,
       "price": 28,
       "details": "Learn C++ programming with a focus on data structures and algorithms. Apply C++ concepts to solve real-world problems efficiently."
     },
@@ -27,7 +27,7 @@
       "id": "CSE401",
       "img": "https://i.ibb.co/42WsXSH/Rectangle-3.png",
       "title": "Basic Data Structures",
-      "credit": 3,
+      "credit": 6,
       "price": 17,
       "details": "Delve into the fundamental data structures used in computer science. Build a strong foundation for software development."
     },
