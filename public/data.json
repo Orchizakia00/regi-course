@@ -1,0 +1,75 @@
+[
+    {
+      "id": "CSE101",
+      "img": "https://ibb.co/tMm636x",
+      "title": "Introduction to C Programming",
+      "credit": 3,
+      "price": 299.99,
+      "details": "Get started with the basics of C programming. Learn about variables, data types, and control structures in this introductory course."
+    },
+    {
+      "id": "CSE201",
+      "img": "https://ibb.co/5kJCFsr",
+      "title": "Introduction to Algorithms",
+      "credit": 4,
+      "price": 399.99,
+      "details": "Explore the fascinating world of algorithms and problem-solving techniques. Master data structures and algorithm design principles."
+    },
+    {
+      "id": "CSE301",
+      "img": "https://ibb.co/g961g8h",
+      "title": "Introduction to C++ for DSA",
+      "credit": 3,
+      "price": 349.99,
+      "details": "Learn C++ programming with a focus on data structures and algorithms. Apply C++ concepts to solve real-world problems efficiently."
+    },
+    {
+      "id": "CSE401",
+      "img": "https://ibb.co/bFNpqzK",
+      "title": "Basic Data Structures",
+      "credit": 3,
+      "price": 299.99,
+      "details": "Delve into the fundamental data structures used in computer science. Build a strong foundation for software development."
+    },
+    {
+      "id": "CSE501",
+      "img": "https://ibb.co/w0gZMxJ",
+      "title": "Introduction to OOP Python",
+      "credit": 4,
+      "price": 499.99,
+      "details": "Explore the world of Object-Oriented Programming (OOP) in Python. Create reusable code and solve complex problems."
+    },
+    {
+      "id": "CSE601",
+      "img": "https://ibb.co/DKKHDVR",
+      "title": "Software Engineering",
+      "credit": 3,
+      "price": 349.99,
+      "details": "Gain insights into software engineering principles, methodologies, and best practices. Learn to build high-quality software."
+    },
+    {
+      "id": "CSE701",
+      "img": "https://ibb.co/hKRQ2hd",
+      "title": "AWS, Cloud Computing",
+      "credit": 4,
+      "price": 399.99,
+      "details": "Discover the world of cloud computing with AWS. Learn to deploy, manage, and scale applications in the cloud."
+    },
+    {
+      "id": "CSE801",
+      "img": "https://ibb.co/syq1vSB",
+      "title": "Database (MySQL)",
+      "credit": 3,
+      "price": 349.99,
+      "details": "Master the art of database management with MySQL. Design efficient databases and write complex queries."
+    },
+    {
+      "id": "CSE901",
+      "img": "https://ibb.co/z6dFqKD",
+      "title": "Problem-Solving Part",
+      "credit": 3,
+      "price": 299.99,
+      "details": "Enhance your problem-solving skills with this hands-on course. Tackle challenging problems and develop creative solutions."
+    }
+  ]
+  
