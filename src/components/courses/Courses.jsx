@@ -8,6 +8,8 @@ import 'react-toastify/dist/ReactToastify.css';
 const Courses = () => {
     const [courses, setCourses] = useState([]);
     const [selectedCourses, setSelectedCourses] = useState([]);
+    const [remaining, setRemaining] = useState(0);
+    const [totalCredit, setTotalCredit] = useState(0);
 
     useEffect(() => {
         fetch('./data.json')
@@ -17,14 +19,20 @@ const Courses = () => {
 
     const handleSelectBtn = (course) => {
         const isExist = selectedCourses.find((item) => item.id === course.id);
+        let creditCount = course.credit;
         if (isExist) {
             toast('Course is already selected. Try selecting another course.');
         }
         else {
+            selectedCourses.forEach((item) => {
+                creditCount += item.credit;
+            });
+            const totalRemaining = 20 - creditCount;
+            setRemaining(totalRemaining);
+            setTotalCredit(creditCount);
             setSelectedCourses([...selectedCourses, course]);
         }
     }
-    console.log(selectedCourses);
 
     return (
         <div className='flex mt-10'>
@@ -49,7 +57,9 @@ const Courses = () => {
 
             <div>
                 <Cart
-                    selectedCourses={selectedCourses}
+                    selectedCourses={selectedCourses} 
+                    remaining ={remaining} 
+                    totalCredit={totalCredit}
                 ></Cart>
             </div>
 
