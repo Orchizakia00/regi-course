@@ -54,8 +54,14 @@ const Courses = () => {
                             <p className="text-center my-2 font-bold text-xl">{course.title}</p>
                             <p>{course.details}</p>
                             <div className="flex justify-between my-4">
-                                <p>Price: ${course.price}</p>
+                                <div className="flex gap-1">
+                                    <img src="./dollar.svg" alt="" />
+                                    <p>Price: ${course.price}</p>
+                                </div>
+                                <div className="flex gap-1">
+                                    <img src="./Frame.svg" alt="" />
                                 <p>Credit: {course.credit} hr</p>
+                                </div>
                             </div>
                             <button onClick={() => handleSelectBtn(course)} className="w-full bg-blue-600 text-white rounded-xl p-1">Select</button>
 
