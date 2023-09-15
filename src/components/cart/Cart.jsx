@@ -13,7 +13,7 @@ const Cart = ({ selectedCourses, remaining, totalCredit, totalCost }) => {
                     <li key={course.id} className="list-decimal">{course.title}</li>
                 ))
             }
-            <hr />
+            <hr className="mt-4" />
             <p className="my-4">Total Credit Hour : {totalCredit} hr</p>
             <hr />
             <p className="my-4">Total Price : ${totalCost}</p>
