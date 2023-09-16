@@ -34,6 +34,7 @@ const Courses = () => {
             if (creditCount > 20) {
                 toast('Your limit is over. You can enroll only 20 credits.');
             }
+            
             else {
                 setRemaining(totalRemaining);
                 setTotalCredit(creditCount);
